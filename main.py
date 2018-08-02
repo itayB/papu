@@ -20,7 +20,7 @@ setup_routing(app)
 
 
 def main():
-    app.run(host='0.0.0.0', port=80, debug=False)
+    app.run(host='0.0.0.0')
 
 
 if __name__ == "__main__":
